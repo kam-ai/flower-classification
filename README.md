@@ -1,13 +1,12 @@
 # flower-classification
-Start template for classifying flowers with data
+Boiler plate for classifying iris dataset.
 
 
-## Need to have
+## Requirements
 * Python 3
 * pip
 
-
-# Get started
+## Install
 
 ### (Optinal) Create Virtual env
 ```
@@ -20,9 +19,31 @@ pip install -r requirements.txt
 
 # Scripts
 
-### (Optional) Check all modules are installed
+## train_model.py
+Test loaded model in models
+
+```
+python train_model.py
+```
+
+## check_deps.py (Optional) 
+Check all modules are installed
 ```
 python check_deps.py
+```
+
+## analyse_dataset.py
+Visualization of dataset
+```
+python analyse_dataset.py
+```
+
+
+## evaluate.py
+Test loaded model in models
+
+```
+python evaluate.py
 ```
 
 ### Run demo
