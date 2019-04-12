@@ -15,7 +15,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
-dataset = read_csv('training_data.csv')
+dataset = read_csv('data/training-data.csv')
 print(dataset.shape)
 print(dataset)
 
