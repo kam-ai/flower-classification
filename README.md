@@ -45,8 +45,3 @@ Test loaded model in models
 ```
 python evaluate.py
 ```
-
-### Run demo
-```
-python main.py
-```
