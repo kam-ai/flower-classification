@@ -37,7 +37,7 @@ Below are scripts that might be of help when getting started.
 ## check_deps.py (Optional) 
 Check all modules are installed
 ```
-python check_deps.py
+python utils/check_deps.py
 ```
 
 ## train_model.py
